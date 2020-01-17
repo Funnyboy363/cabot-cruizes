@@ -1,0 +1,173 @@
+
+
+
+/* NAVigation  */
+a.hamburgerOpen, a.hamburgerClose {display: none;}
+
+nav {
+position: absolute;
+    top: 3.4rem;
+    height: auto;
+    background: rgb(223,202,182); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(223,202,182,1) 0%, rgba(113,152,209,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(223,202,182,1) 0%,rgba(113,152,209,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(223,202,182,1) 0%,rgba(113,152,209,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfcab6', endColorstr='#7198d1',GradientType=0 ); /* IE6-9 */
+   
+    
+    
+    
+	// new stuff
+	ul {
+	margin-left: 5%;
+    border-left: 1px solid rgba(0,0,0,0.2);
+	}
+	ul li {
+        display: block;
+    float: left !important;
+
+	}
+	ul li a { 
+	border:none; // undo small screen
+	border-right: 1px solid rgba(0,0,0,0.2);
+	background: none;
+	font-size: .9em;
+	padding: 1em 1.2em;
+	/*transition*/
+	-webkit-transition: color 0.3s linear; 
+	transition: color 0.3s linear;
+	}
+	ul li a:hover {background: darken(#557c97,5%);}
+	
+	
+	
+} // end nav
+
+form {
+    margin-right: 80px;
+}
+
+
+
+.invisible {
+    display: none;
+}
+
+/* ------------- HEADER ------------- */
+header {
+	height: 110px; 
+	h1{padding-top: 30px; font-size: 3.5rem;} //end h1
+}
+
+
+
+.phone {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+padding-right: 12px;
+padding-bottom: 12px;
+text-decoration: none;
+font-size: 25px;
+color: black;
+}
+
+
+
+
+
+/* ------------- MAIN ------------- */
+main {
+
+    h1 {
+        margin-top: 5rem;
+        margin-left: 3rem;
+    
+    }
+    
+div.parent {
+       grid-template-columns: 1fr 1fr 1fr;
+     grid-column-gap: 2%;
+        grid-row-gap: 0;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    
+    }
+    
+      div .article:nth-child(1) {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+    }
+
+div.parent article {
+        text-align: center;
+    justify-content: center;
+    }
+
+
+
+   figure.member {
+        width: 100%;
+        text-align: center;  
+    }
+
+    a.learnmore {
+        text-decoration: none;
+        font-size: 1rem;
+     
+          vertical-align: text-bottom;
+      
+        
+     
+    }
+    
+  a.learnmore:hover {
+        color: black;
+        background-color: $hover;
+    }
+
+
+
+    .wrapper2 {
+        border: none;
+        background-color: none;
+        padding: .5rem 0;
+        
+    }
+    
+    
+      figure.member {
+        width: 100%;
+    }
+    
+    figure.member img {
+        width: 30%;
+    } 
+    
+    
+
+}
+
+
+/*  ------------- Lazy Load Gallery -------------  */
+
+
+
+footer {
+
+	div.footwrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+         grid-column-gap: 2%;
+		grid-row-gap: .1rem;
+		text-align: center;
+		margin: 0 4rem;
+		padding-top: 1rem;
+	} // end of footwrap
+
+	
+
+
+} // end of footer

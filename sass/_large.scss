@@ -1,0 +1,137 @@
+
+body {
+    margin: auto;
+}
+
+
+/* ------------- HEADER ------------- */
+header {
+    max-width: 1200px;
+    margin: auto;
+	background-repeat: no-repeat, repeat-x;
+}
+
+
+
+
+/* NAVigation  */
+nav {
+
+
+    ul {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+
+
+    ul li a span {display: inline;}
+    width: 100%;
+    display: block;
+    
+
+    
+}
+
+
+
+
+
+
+/* ------------- MAIN ------------- */
+
+main {
+    max-width: 1200px;
+margin: auto;
+    
+
+
+ div.parent {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+       
+     grid-row-gap: 1%;
+     padding: 0;
+    }
+    
+      div .article:nth-child(1) {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2; 
+       
+    }
+    
+
+
+  div.parent article {
+        vertical-align: text-bottom;
+        padding: 0 10px;
+    }
+    
+    
+    a.learnmore {
+        width: 14rem;
+        height: 18rem;
+    }
+    
+
+    
+
+    a.learnmore {
+        margin: auto;
+    }
+    
+
+figure  {
+    width: 100%;
+    color: white;
+}
+
+    figure.image {
+        width: 100%;
+    }
+
+
+figure.image a {
+        background-color: white;
+        color: white;
+    }
+
+
+}
+
+
+
+
+footer {
+
+    div.footwrap {
+        margin: auto;
+        max-width: 120rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+  
+    
+    footer div.footwrap article {
+        padding: 20px;
+    }
+    
+    p.cabot {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 280px;
+    }
+
+    input.form {
+        display: block;
+        width: 100%;
+    }
+
+    input.formbutton {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    }
