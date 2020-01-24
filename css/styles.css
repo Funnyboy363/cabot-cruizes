@@ -318,7 +318,8 @@ footer {
     display: block;
     width: 90%;
     text-align: center;
-    margin: 2px auto; }
+    margin: 2px auto;
+    height: 44px; }
   footer input.formbutton {
     width: 90%;
     border-radius: 10px;
