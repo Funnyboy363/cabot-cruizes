@@ -323,7 +323,8 @@ footer {
   footer input.formbutton {
     width: 90%;
     border-radius: 10px;
-    margin: 4px auto; }
+    margin: 4px auto;
+    height: 30px; }
   footer ul.social {
     display: flex;
     justify-content: center; }
